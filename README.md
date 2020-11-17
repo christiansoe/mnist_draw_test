@@ -13,7 +13,7 @@ Now I need UI to accept user handwriting.
 Used Tkinter, PIL frameworks to add a window and hand-drawing panel on it. 
  
 ### Normalize the Images
-Drawing on the canvas is resized to 28 x 28 and fed to trained model but the accuracy was below 60%. It couldn't recognize the obvious drawings.
+Drawing on the canvas is resized to 28 x 28 and fed to trained model but the accuracy was below 60%. It couldn't recognize even an clear drawing.
 So as directed [here](http://yann.lecun.com/exdb/mnist/), I added normalization of images.
 
 > The original black and white (bilevel) images from NIST were size
